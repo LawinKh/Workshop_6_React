@@ -62,3 +62,7 @@ See the detailed instructions in `frontend/README.md`.
 2. Start the backend server.
 3. Complete the frontend against the running API.
 4. Test the full CRUD flow end to end.
+
+
+21.11.2026
+LK
