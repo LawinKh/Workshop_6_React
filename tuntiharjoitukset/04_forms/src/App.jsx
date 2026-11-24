@@ -43,8 +43,9 @@ function validate(fields) {
 
   if (!fields.message.trim()) {
     errors.message = 'Message cannot be empty.'
-  } else if (fields.message.trim().length < 10) {
-    errors.message = 'Message must be at least 10 characters.'
+    // Changed message to be 5 characters long - LK 24.11
+  } else if (fields.message.trim().length < 5) {
+    errors.message = 'Message must be at least 5 characters.'
   }
 
   return errors
