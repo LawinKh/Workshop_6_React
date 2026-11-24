@@ -4,7 +4,7 @@
 function Header() {
   return (
     <header className="header">
-      <h1>React Components Demo</h1>
+      <h1>React Components Demo Lawin</h1>
       <p>Functional components · Props · List rendering · useState</p>
     </header>
   )

@@ -11,6 +11,8 @@ const team = [
   { id: 2, name: 'Mikko',   role: 'Backend',   level: 'Mid'    },
   { id: 3, name: 'Juhani',  role: 'Full Stack', level: 'Junior' },
   { id: 4, name: 'Siiri',   role: 'Designer',  level: 'Senior' },
+  // Add Emilia here
+  { id: 5, name: 'Emilia',   role: 'UX Designer',  level: 'Mid' },
 ]
 
 function App() {
@@ -23,7 +25,7 @@ function App() {
       {/* 2. Props — passing data into a component */}
       <section className="section">
         <h2 className="section-title">Props</h2>
-        <Greeting name="Laurea Fullstack" />
+        <Greeting name="Aino" />
       </section>
 
       {/* 3. List rendering — .map() turns an array into JSX.
@@ -45,6 +47,16 @@ function App() {
 
       {/* 4. useState — local state that triggers re-renders */}
       <section className="section">
+        <h2 className="section-title">State (useState)</h2>
+        <CounterCard />
+      </section>
+
+        <section className="section">
+        <h2 className="section-title">State (useState)</h2>
+        <CounterCard />
+      </section>
+
+        <section className="section">
         <h2 className="section-title">State (useState)</h2>
         <CounterCard />
       </section>
