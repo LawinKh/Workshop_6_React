@@ -23,7 +23,7 @@ function App() {
   const [usersStatus, setUsersStatus] = useState('loading') // 'loading' | 'error' | 'success'
   const [usersError, setUsersError] = useState(null)
 
-  // ── Selected user ─────────────────────────────────────────────────────────
+  // ── Selected user MODIFY HERE - LK 24.11 ─────────────────────────────────────────────────────────
   const [selectedUserId, setSelectedUserId] = useState(null)
 
   // ── Posts state (loaded whenever selectedUserId changes) ──────────────────
