@@ -1,5 +1,14 @@
 # WS06 React
 
+## Submission
+
+## Submission
+
+This is Workshop 6 (React) for the Full Stack course at Laurea UAS. The app is a simple blog where you can create, view, edit and delete posts.
+
+- App: https://workshop-6-react-frontend.onrender.com
+- API: https://workshop-6-react.onrender.com/api/posts
+
 This repository contains a student starter package and a complete reference solution for the WS06 React + REST API workshop.
 
 ## Current Structure
